@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Tabela from "../components/tabela";
 
 export default function Bibliotecas() {
-    const bibliotecas= Biblioteca.geraEventosMock()
+    const bibliotecas= Biblioteca.geraBibliotecasMock()
     return (
         <div className={`
         flex justify-center items-center h-screen

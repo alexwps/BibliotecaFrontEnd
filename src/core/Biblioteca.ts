@@ -13,7 +13,7 @@ export default class Biblioteca {
     this.observacao = observacao;
     }
 
-    static geraEventosMock() {
+    static geraBibliotecasMock() {
         return [ new Biblioteca(1, "Biblioteca 1",
         "Rua A - 123 -Centro - Fontoura Xavier",
         "8:30 AS 11:30 E 13:30 AS 17:00", "NÃO FAZER BARULHO, DEVOLVER OS LIVROS"

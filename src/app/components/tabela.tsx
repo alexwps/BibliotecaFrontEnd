@@ -6,11 +6,11 @@ export default function Tabela(props: TabelaProps) {
     function renderHeader() {
         return (
             <tr>
-                <th className="text-left p-3">id</th>
-                <th className="text-left p-3">nome</th>
-                <th className="text-left p-3">endereco</th>
-                <th className="text-left p-3">funcionamento</th>
-                <th className="text-left p-3">observacao</th>
+                <th className="text-left p-3">Id</th>
+                <th className="text-left p-3">Nome</th>
+                <th className="text-left p-3">Endereco</th>
+                <th className="text-left p-3">Funcionamento</th>
+                <th className="text-left p-3">Observacao</th>
             </tr>)
     }
     function renderDados() {
